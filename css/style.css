@@ -1,0 +1,211 @@
+body{
+  font-size: 16px;
+  background-color: #33FF8D;
+  font-family: Helvetica;
+}
+
+#header-nav {
+  background-color: lightgray;
+  border-radius: 0;
+  border: 0;
+}
+
+.navbar-brand {
+  padding-top: 25px;
+}
+.navbar-brand h1 { /* name */
+  color: black;
+  font-size: 1.5em;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.navbar-brand a {
+  text-decoration: none;
+}
+
+#nav-list a {
+  color: #A50B0B;
+  text-align: center;
+}
+#nav-list a:hover {
+  background: #ECE331;
+}
+#nav-list a span {
+  font-size: 1.8em;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #61122f;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -30px;
+}
+
+/* END HEADER */
+
+
+/********** Large devices only **********/
+@media (min-width: 1200px) {
+  
+}
+
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+  }
+  
+}
+
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+  
+}
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+  /* Header */
+  .navbar-brand {
+    padding-top: 10px;
+    height: 80px;
+  }
+  .navbar-brand h1 { /* Restaurant name */
+    padding-top: 10px;
+    font-size: 5vw; /* 1vw = 1% of viewport width */
+  }
+  
+
+  #collapsable-nav a { /* Collapsed nav menu text */
+    font-size: 1.2em;
+  }
+  #collapsable-nav a span { /* Collapsed nav menu glyph */
+    font-size: 1em;
+    margin-right: 5px;
+  }
+
+  #call-btn > a {
+    font-size: 1.5em;
+    display: block;
+    margin: 0 20px;
+    padding: 10px;
+    border: 2px solid #fff;
+    background-color: #f6b319;
+    color: #951c49;
+  }
+  #xs-deliver {
+    margin-top: 5px;
+    font-size: .7em;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+  }
+  /* End Header */
+}
+
+
+/********** Super extra small devices Only :-) (e.g., iPhone 4) **********/
+@media (max-width: 479px) {
+  /* Header */
+  .navbar-brand h1 { /* Restaurant name */
+    padding-top: 5px;
+    font-size: 6vw;
+  }
+  /* End Header */
+  
+  .col-xxs-12 {
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+    float: left;
+    width: 100%;
+  }
+}
+
+h1{
+  font-family: Helvetica;
+}
+
+.bx {
+  border: 1px solid black;
+  background-color: #D1CF83;
+  height: 320px;
+  margin-right: auto;
+  margin-left: auto;
+  font-family: Helvetica;
+  color: black;
+  margin: 20px;
+  padding-left: 10px;
+}
+
+/* Simple Responsive Framework. */
+.row {
+  width: 100%;
+}
+
+.nbx1{
+  border: 2px solid black;
+  background-color: #3AE414;
+  height: 25px;
+  margin-left: 70%;
+}
+
+.nbx2{
+  border: 2px solid black;
+  background-color: #364433;
+  height: 25px;
+  margin-left: 70%;
+  color: white;
+}
+
+.nbx3{
+  border: 2px solid black;
+  background-color: #FA0C0C;
+  height: 25px;
+  margin-left: 70%;
+}
+
+.nbx1 p{
+  font-family: Helvetica;
+  margin: 0;
+  font-weight: bold;
+}
+.nbx2 p{
+  font-family: Helvetica;
+  margin: 0;
+  font-weight: bold;
+}
+.nbx3 p{
+  font-family: Helvetica;
+  margin: 0;
+  font-weight: bold;
+}
+
+@media (min-width: 992px) {
+  .col-lg-1, .col-lg-2, .col-lg-3{
+    float: left;
+  }
+  .col-lg-1 {
+    width: 33.33%;
+  }
+  .col-lg-2 {
+    width: 66.66%;
+  }
+  .col-lg-3 {
+    width: 100%;
+  }
+}
+
+/********** Medium devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+  .col-md-1, .col-md-2 {
+    float: left;
+  }
+  .col-md-1 {
+    width: 50%;
+  }
+  .col-md-2 {
+    width: 100%;
+  }
+
+}
